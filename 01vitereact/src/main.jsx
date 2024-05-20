@@ -24,10 +24,13 @@ function MyApp(){
 // now we are going to make reactElement 
 // according to react not for custom
 
+const anotherUser= "chai aur code" 
+
 const reactElement=React.createElement(
     'a',
     {href:'https://google.com',target:'_blank'},
-    'click me to visit google'
+    'click me to visit google',
+   anotherUser
 )
 
 const anotherElement = (
@@ -36,11 +39,11 @@ const anotherElement = (
 
 ReactDOM.createRoot(document.getElementById('root')).
 render(
-    // <MyApp />  // this can be written as MyApp() 
-    // anotherElement  
-    // reactElement
+    // <MyApp /> 
+     //anotherElement  
+    reactElement
 
-    <App/>
+    // <App/>
 )
 
 
