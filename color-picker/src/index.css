@@ -1,0 +1,20 @@
+.color-picker-container{
+  text-align:center;
+  margin:50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.color-display{
+    width:20%;
+    height: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:5px;
+    margin-bottom:30px;
+    font-style:bold;
+    cursor: pointer;
+}
